@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a=20;
+    int b=10;
+    int c;
+    printf("The value of a is : %d\n",a );
+    printf("The value of b is : %d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("The swap value of a is : %d\n",a);
+    printf("The swap value of b is : %d\n",b);
+    return 0;
+}
