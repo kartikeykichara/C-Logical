@@ -2,8 +2,9 @@
 int main()
 {
     char a;
-    scanf("%c",&a);
     printf("Enter any charcter : ");
+    scanf("%c",&a);
+    
     if (a=='a')
     {
         int a=1;
